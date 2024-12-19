@@ -1,0 +1,62 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node modules
+node_modules/
+
+# Output directories
+dist/
+out-tsc/
+build/
+
+# Generated files
+*.log
+*.lock
+*.gz
+*.zip
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.vscode-test/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Angular build-related files
+.angular/
+
+# Coverage reports
+coverage/
+
+# Environment files (add this if you keep sensitive data here)
+src/environments/*.prod.ts
+
+# Temporary files
+tmp/
+temp/
+
+# Compiled TypeScript files
+*.js
+*.js.map
+*.d.ts
+
+# Debugging and profiling
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Angular Universal prerender outputs
+prerendered/
+
+# Firebase emulators
+firebase-debug.log
